@@ -1,0 +1,56 @@
+<html>
+<head>
+<body bgcolor="#c8c7d7"><center>
+<h1><b>Registration Form</b></h1></center>
+<form>
+<label>Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text"name="textbox">
+<br>
+<label>Password</label>
+<input type="password"name="passsword">
+<br>
+<label>Address</label>&nbsp&nbsp
+<textarea name="address" rows="2" cols="40" maxlength="500">
+</textarea>
+<br>
+<label>Mobile</label>&nbsp&nbsp&nbsp
+<input type="number"name="mobile">
+<br>
+<label>Email</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text"name="email">
+<br>
+<label>DOB</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="date" name="date">
+<br>
+<label>Gender</label>
+<input type="radio"name="gender"value="female">
+<label>Female</label>
+<input type="radio"name="gender"value="male">
+<label>Male</label>
+<input type="radio"name="gender"value="others">
+<label>Others</label>
+<br>
+<label>Nationality</label>
+<select name="nationality">
+<option value="indian">Indian</option>
+<option value="pakistani">Pakistani</option>
+<option value="american">American</option>
+<option value="palestini">Palestini</option></select>
+<br>
+<fieldset>
+<legend>Languages known</legend><br><br>
+<input type="checkbox"name="malayalam">
+<label>Malayalam</label><br>
+<input type="checkbox"name="english">
+<label>English</label><br>
+<input type="checkbox"name="hindi">
+<label>Hindi</label><br>
+</fieldset>
+<br>
+<center>
+<input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button type="reset"><b>cancel<b></button></center>
+<br><br>
+</form>
+</body>
+</html>
